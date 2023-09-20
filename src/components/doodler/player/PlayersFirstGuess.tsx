@@ -1,7 +1,6 @@
-import React from "react";
 import { useState } from "react";
-import Btn from "@/components/doodler/Btn";
-import Spinner from "@/components/Spinner";
+import Btn from "../Btn";
+import Spinner from "../../Spinner";
 
 type Props = {
 	submitGuess: any;

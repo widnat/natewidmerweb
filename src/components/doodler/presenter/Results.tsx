@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import Btn from "@/components/doodler/Btn";
-import { Player } from "@/types/doodler";
+import { Player } from "../../../types/doodler";
 
 type Props = {
 	players: Player[];

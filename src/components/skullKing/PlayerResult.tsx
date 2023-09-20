@@ -1,4 +1,3 @@
-import React from "react";
 import ShortDisplay from "./ShortDisplay";
 import { Player, PlayerRound } from "../../types/skullKeeper";
 

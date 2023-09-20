@@ -5,9 +5,9 @@ import PlayerResult from "../../components/skullKing/PlayerResult";
 import { useStoreSelector } from "../../hooks/store";
 import { roundsState } from "../../store/skullKeeper/roundsSlice";
 import { playersState } from "../../store/skullKeeper/playersSlice";
-import { useRouter } from "next/router";
 import { PlayerRound } from "../../types/skullKeeper";
 import { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function Results() {
 	const router = useRouter();

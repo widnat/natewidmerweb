@@ -1,6 +1,6 @@
 import { useState } from "react";
-import DrawingArea from "@/components/doodler/DrawingArea";
-import Spinner from "@/components/Spinner";
+import DrawingArea from "../DrawingArea";
+import Spinner from "../../Spinner";
 
 type Props = {
 	action: any;
@@ -8,7 +8,6 @@ type Props = {
 };
 
 export default function CreateDoodle({ action, assignment }: Props) {
-	const [playerName, setPlayerName] = useState("");
 	const [waiting, setWaiting] = useState(false);
 
 	function doneDrawing(doodleURL: string) {

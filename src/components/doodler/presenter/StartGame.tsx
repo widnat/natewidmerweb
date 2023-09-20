@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Btn from "@/components/doodler/Btn";
-import { Player } from "@/types/doodler";
+import Btn from "../Btn";
+import { Player } from "../../../types/doodler";
 import QRCode from "react-qr-code";
 
 type Props = {

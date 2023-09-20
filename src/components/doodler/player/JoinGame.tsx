@@ -1,9 +1,7 @@
-import NavBar from "@/components/NavBar/NavBar";
-import Title from "@/components/Title";
 import { useState } from "react";
-import DrawingArea from "@/components/doodler/DrawingArea";
-import PlayerNameInput from "@/components/doodler/PlayerNameInput";
-import Spinner from "@/components/Spinner";
+import DrawingArea from "../DrawingArea";
+import PlayerNameInput from "../PlayerNameInput";
+import Spinner from "../../Spinner";
 
 type Props = {
 	action: any;

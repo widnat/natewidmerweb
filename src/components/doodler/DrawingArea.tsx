@@ -1,8 +1,6 @@
-import React from "react";
 import { useState, useRef, useEffect } from "react";
-import { Point } from "@/types/doodler";
-import { Draw } from "@/types/doodler";
-import { useDraw } from "@/hooks/doodler";
+import {Point, Draw} from "../../types/doodler"
+import { useDraw } from "../../hooks/doodler";
 import Btn from "./Btn";
 
 type Props = {

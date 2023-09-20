@@ -1,4 +1,3 @@
-import React from "react";
 import BidBtn from "./BidBtn";
 import WonBtn from "./WonBtn";
 import BonusBtn from "./BonusBtn";

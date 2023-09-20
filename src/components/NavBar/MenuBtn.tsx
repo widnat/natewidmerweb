@@ -1,6 +1,3 @@
-import React from "react";
-import { Bool } from "reselect/es/types";
-
 type Props = {
 	changeDropdown: any;
 };
